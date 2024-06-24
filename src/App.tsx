@@ -17,6 +17,7 @@ function App() {
       <div>{moment("2024-12-25 00:00:00 +03:00").format("YYYY-MM-DD HH:mm:ss")}</div>
       <br />
       <div>{Date.parse("2024-12-25 00:00:00 +03:00")}</div>
+      <div>{Date.parse("2024-12-25 00:00:00 +03:00".replace(" ", "T").replace(" ", ""))}</div>
     </div>
     </div>
   );
