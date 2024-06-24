@@ -9,7 +9,7 @@ function App() {
       <div className="App">
       <div>{dayjs("2024-12-25T00:00:00Z").format("YYYY-MM-DD HH:mm:ss")}</div>
       <div>{dayjs("2024-12-25T00:00:00+03:00").format("YYYY-MM-DD HH:mm:ss")}</div>
-      <div>{dayjs("2024-12-25 00:00:00 +03:00").format("YYYY-MM-DD HH:mm:ss")}</div>
+      <div>{dayjs(new Date("2024-12-25 00:00:00 +03:00")).format("YYYY-MM-DD HH:mm:ss")}</div>
     </div>
     </div>
   );
