@@ -11,10 +11,12 @@ function App() {
       <div>{dayjs("2024-12-25T00:00:00Z").format("YYYY-MM-DD HH:mm:ss")}</div>
       <div>{dayjs("2024-12-25T00:00:00+03:00").format("YYYY-MM-DD HH:mm:ss")}</div>
       <div>{dayjs(new Date("2024-12-25 00:00:00 +03:00")).format("YYYY-MM-DD HH:mm:ss")}</div>
-
+      <br />
       <div>{moment("2024-12-25T00:00:00Z").format("YYYY-MM-DD HH:mm:ss")}</div>
       <div>{moment("2024-12-25T00:00:00+03:00").format("YYYY-MM-DD HH:mm:ss")}</div>
       <div>{moment("2024-12-25 00:00:00 +03:00").format("YYYY-MM-DD HH:mm:ss")}</div>
+      <br />
+      <div>{Date.parse("2024-12-25 00:00:00 +03:00")}</div>
     </div>
     </div>
   );
